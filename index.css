@@ -1,0 +1,668 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #F3F3F5E5;
+    ;
+}
+.head{
+    background-color: #796FAB;
+    height: 19vh;
+}
+
+.text{
+     text-align: center !important;
+    padding-top: 40px !important;
+    color: white;    
+}
+.text h5{
+    margin-right:-200px !important;
+    margin-top: 5px !important;
+    font-size: 20px !important;
+}
+.text h4{
+    margin-right: -180px !important;
+    font-size: 30px !important;
+
+}
+.logo img{
+    margin-left: 90%;
+    padding-top:10px ;
+    width: 30%;
+}
+
+ .image{
+   
+    width: 10% !important;
+    padding-top: 10px;
+    object-fit: contain !important;
+
+}
+    .image input{
+        border: 1px solid white;
+        width: 90%;
+        height: 100% !important;
+        padding-top: 50px !important;
+    }
+.search{
+    padding-top: 20px;
+}
+#search{
+    width: 200px !important;
+
+}
+.date{
+   padding-top: 20px;
+    
+}
+#institution{
+    margin-left: 21px !important;
+    width: 350px;
+}
+.date.input{
+    width: 300%;
+}
+.info{
+    padding-top: 4px;
+    background-color: #796FAB;
+    color: white;
+}
+.next{
+    background-color: #796FAB;
+    color: white;  
+    
+}
+.info h4{
+    font-size: 30px;
+}
+.br{
+    border-bottom:2px solid  #796FAB;
+}
+label{
+    padding-bottom: 20px;
+    color: black;
+top: 464px;
+left: 74px;
+
+}
+/* styling */
+#title{
+    margin-left:80px !important;
+    width: 350px;
+}
+.dateInput{
+    margin-left:15px !important;
+    width: 350px;
+
+}
+.dateInput-1{
+    margin-left: 43px !important;
+    width: 350px;
+}
+.done{
+    margin-left: 60px !important;
+}
+#date{
+    margin-left: 80px !important;
+    width: 350px !important;
+}
+#gender-1 input{
+    margin-left: 56px !important;
+}
+#gender-1 label{
+    margin-right: 30px;
+}
+#religion{
+    margin-left: 40px !important;
+    width: 350px;
+}
+#inste{
+    margin-left: 21px !important;
+    width: 350px;
+    height: 30px;
+}
+#matric{
+    margin-left: 30px;
+    width: 350px;
+}
+#hostel{
+    margin-left: 10px;
+    width: 350px;
+}
+#email{
+    width: 350px;
+}
+#phoneNumberInput{
+    margin-left: 31px;
+    width: 350px;
+}
+.resume input{
+    width: 350px !important;
+    margin-left: 45px;
+}
+#firstname{
+    margin-left: 90px;
+    width: 350px;
+}
+#nation{
+    margin-left: 77px;
+    width: 350px;
+}
+#nationality{
+    margin-left: 87px;
+    width: 350px;
+}
+#permanent{
+    margin-left: 23px;
+    width: 350px;
+}
+#title-1{
+    margin-left:50px !important;
+    width: 350px;
+}
+#title-2{
+    margin-left: 67px;
+    width: 350px;
+}
+.marital input{
+margin-left: 55px;
+
+}
+#department{
+    margin-left: 80px;
+    width: 350px;
+}
+#field{
+margin-left:40px;
+width: 350px;
+}
+#til{
+    width: 350px;
+    margin-left: 80px;
+}
+.surn{
+    width: 350px;
+    margin-left: 42px;
+
+}
+.dateInput-3{
+    width: 350px;
+    margin-left: 15px;
+}
+#first{
+    margin-left: 100px !important;
+    width: 350px;
+}
+#add{
+    width: 350px;
+    margin-left: 17px;
+}
+#spicy{
+    width: 350px;
+    margin-left: 20px;
+}
+.issue input{
+    margin-left: 7px;
+}
+.issue label{
+    margin-right: 30px;
+}
+.done{
+    margin-left: 10px;
+}
+.othername{
+    margin-left: 15px;
+    width: 348px !important;
+}
+#no{
+    margin-left: 35px;
+    width:348px !important ;
+}
+.surname{
+    margin-left: 42px;
+    width: 348px !important;
+}
+#relationship{
+    margin-left: 10px;
+    width: 350px;
+}
+#first{
+    margin-left: 30px;
+    width: 348px;
+}
+#nations{
+    margin-left:17px;
+    width: 350px;
+}
+.form-control{
+    width: 5%;
+}
+.hereby{
+    padding-top: 20px;
+
+}
+#hereby{
+    margin-left: -11px !important;
+}
+#hereby input{
+    font-size: 30px !important;
+}
+#month{
+    margin-left: 5px;
+    width: 280px;
+}
+#training{
+margin-left: 67px;
+width: 280px;
+}
+.details{
+    padding-top: 20px !important;
+    border: 1px solid #796FAB;
+}
+#mode{
+    margin-left: 30px;
+    width: 280px;
+}
+#post{
+    margin-left: 140px !important;
+    width: 350px;
+}
+ #student{
+    width: 350px;
+    margin-left: 40px;
+ }
+  #amount{
+    width: 280px;
+    margin-left: 68px !important;
+  }
+  .bottom{
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+.nex{
+    background-color: #796FAB;
+}
+#Resumption{
+    width: 340px !important;
+    margin-left:48px ;
+}
+.move{
+    height: 70px;
+    padding-top: 30px;
+    
+}
+.move button{
+    padding: 8px 12px;
+    border: none;
+    
+}
+
+
+
+  /* media for small screen */
+  @media screen and (max-width:767px) {
+        /* heading */
+    body{
+        background-color: #F3F3F5E5
+    }  
+    .head{
+        background-color: #796FAB;
+        height: 15vh !important;
+    } 
+    .logo{
+        margin-left: -13px !important;
+    }
+    .logo img{
+            width: 14% !important;
+            margin-top: -177px !important;
+           
+    }
+    .image{
+        width:27% !important ;
+       border: none;
+        padding-top: 10px;
+    
+    }
+        .image input{
+            text-align: left;
+            width: 90%;
+            padding-top:40px !important;
+            border: 1px solid white;
+        }
+
+    .text{
+        color: white;
+        margin-right: -70px !important;
+    }
+    .text h5{
+        margin-right: -31px !important;
+        margin-top: -85px !important;
+        font-size: 13px !important;
+    }
+    .text h4{
+        margin-right: -23px !important;
+        font-size: 14px !important;
+
+    }
+        /* Search */
+        .search{
+            text-align: center;
+            margin-left: 20px;
+        }
+    /* date */
+    .date{
+        text-align: center;
+       
+    }
+    .info{
+        height: 6vh;
+    }
+    .info h4{
+        padding: 2px !important;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* personal info */
+    #title{
+        margin-left:104px !important;
+        width: 190px;
+    }
+    .dateInput-1{
+        margin-left: 67px !important;
+        width: 190px;
+    }
+    .dateInput-2{
+        margin-left: 25px !important;
+        width: 190px !important;
+    }
+    .done{
+        margin-left: 90px !important;
+    }
+    #date{
+        margin-left: 105px !important;
+        width: 190px !important;
+    }
+    .dateInput{
+        width: 190px;
+    }
+    #gender-1 input{
+        margin-left: 84px !important;
+    }
+    #gender-1 label{
+        margin-right: -60px !important;
+    }
+    #religion{
+        margin-left: 67px !important;
+        width: 190px;
+    }
+    #inste{
+        margin-left: 20px !important;
+        width: 190px;
+        height: 30px;
+    }
+    #department{
+        margin-left: 45px;
+        width: 190px;
+    }
+  
+    #matric{
+        margin-left: 59px;
+        width: 190px;
+    }
+    #hostel{
+        margin-left: 40px;
+        width: 190px;
+    }
+    #email{
+        margin-left: 30px;
+        width: 185px;
+    }
+    #phoneNumberInput{
+        margin-left: 57px;
+        width: 190px;
+    }
+    #firstname{
+        margin-left: 58px;
+        width: 190px;
+    }
+    #nation{
+        margin-left: 44px;
+        width: 190px;
+    }
+    #title-1{
+        margin-left:20px !important;
+        width: 190px;
+    }
+    #title-2{
+        margin-left: 3px !important;
+        width: 190px;
+    }
+    #title-2{
+        margin-left: 35px !important;
+        width: 190px;
+    }
+    .marital input{
+    margin-left: 20px;
+    }
+    .marital label{
+        margin-right: -15px;
+        font-size: 15px;
+    }
+    
+    #field{
+     margin-left:5px !important;
+     width: 190px;
+    }
+    #add{
+        width: 166px;
+        margin-left: 4px;
+    }
+    #spicy{
+        width: 145px;
+        margin-left: 20px;
+    }
+    .issue input{
+        margin-left: 7px;
+    }
+    .issue label{
+        margin-right: 30px;
+    }
+    .done{
+        margin-left: 10px;
+    }
+    .othername{
+        margin-left: 15px;
+        width: 348px !important;
+    }
+    #no{
+        margin-left: 35px;
+        width:348px !important ;
+    }
+    .surname{
+        margin-left: 42px;
+        width: 348px !important;
+    }
+   
+    #relationship{
+        margin-left: 10px;
+        width: 200px;
+    }
+    #first{
+        margin-left: 30px;
+        width: 348px;
+    }
+    #nations{
+        margin-left:17px;
+        width: 200px;
+    }
+    .form-control{
+        width: 5%;
+    }
+    .hereby{
+        padding-top: 20px;
+    
+    }
+    #hereby{
+        margin-left: 50px;
+    }
+    #month{
+        margin-left: 5px;
+        width: 300px;
+    }
+    #training{
+    margin-left: 67px;
+    width: 299px;
+    }
+    .details{
+        padding-top: 20px !important;
+        border: 1px solid #796FAB;
+    }
+    #mode{
+        margin-left: 30px;
+        width: 299px;
+    }
+    #post{
+        margin-left: 20px;
+        width: 360px;
+    }
+     #student{
+        width: 280px;
+     }
+      #amount{
+        width: 310px;
+      }
+      .bottom{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .dateInput{
+        width: 190px;
+        margin-left: 40px !important;
+      }
+      #nationality{
+        width: 200px;
+        margin-left: 30px !important;
+      }
+      #inste{
+        margin-left: 50px !important;
+      }
+      #institution{
+        margin-left: 50px !important;
+        width: 190px;
+    }
+    
+    
+      .issue input{
+        margin-left: -3px;
+    }
+    .res{
+        padding-top: 10px;
+        margin-left: -8px !important;
+    }
+    #Resumption{
+        width: 170px !important;
+        margin-left:6px !important ;
+    }
+    /* next of kin */
+    #til{
+        margin-left:104px !important;
+        width: 190px;
+    }
+    .te{
+        padding-left: 15px;
+    }
+    .surn{
+        width: 190px;
+        margin-left: 67px !important;
+    }
+    #first{
+        margin-left: 58px !important;
+        width: 190px;
+    }
+    #nationality{
+        margin-left: 45px !important;
+        width: 190px;
+    }
+     #permanent{
+        width: 158px;
+        margin-left: 9px !important;
+   }
+   #no{
+    margin-left: 61px !important;
+    width: 184px !important;
+    }
+    #relationship{
+        width: 185px;
+        margin-left: 39px !important;
+    }
+    .hereby{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .hereby input{
+        margin-left: 1px !important;
+    }
+    .by{
+        padding-top: -8px !important;
+        font-size: 12px;
+    }
+    .resume{
+        margin-top: -20px !important;
+    }
+    .resume input{
+        width: 175px !important;
+        margin-left: 10px !important;
+    }
+    .sign input{
+        margin-left: 20px;
+        width: 180px !important;
+    }
+
+    /* ict */
+        #month{
+            margin-left: 3px !important;
+            width: 155px !important;
+        }
+        #post{
+            width: 160px !important;
+            margin-left: 126px !important;
+        }
+        #training{
+            width: 160px;
+            margin-left: 60px;
+        }
+        #student{
+            width: 160px;
+            margin-left: 28px;  
+        }
+        #mode{
+            width: 160px;
+            margin-left: 22px;
+        }
+        #amount{
+            width: 160px;
+            margin-left: 60px !important;
+        }
+        .bottom img{
+            padding-top: 30px !important;
+            margin-left: 13px !important;
+            width: 100%;
+            align-items: center;
+        }
+        .move{
+            height: 50px;
+            padding-top: 15px;
+            
+        }
+
+        .butnSubmit{
+            padding: 8px 12px;
+            border: none;
+            background-color: antiquewhite;
+        }
+  }
