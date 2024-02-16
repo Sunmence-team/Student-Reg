@@ -52,13 +52,24 @@ $myloading = mysqli_fetch_assoc($myresult);
         <div class="container">
             <div class="row align-item-center justify-content-center">
                 <div class="col-md-9 d-flex align-items-center pb-2">
-                    <div class="d-flex align-items-center justify-content-start w-100">
-                        <label for="" class="d-flex align-items-center mt-4">UPLOAD PROFILE PICS</label>
+                    <div class="d-lg-flex d-none d-md-block align-items-center justify-content-start w-100">
+                        <label for="" class="d-flex align-items-center mt-4 ">UPLOAD PROFILE PICS</label>
 
                         <div class="">
+                            <?php
+                                if(isset($myloading['fileupload'])){
+                                    ?>
+                                    <img src="image/<?php echo $myloading['fileupload'] ?>" width = "100px" height = "100px" alt = "" >
+                                <?php
+                                }else{
+                                    ?>
+                                    <input type="file" name="fileupload" required class="   " value=" <?php echo $fileupload ?>">
+                                <?php
+                                }
 
-                            <!-- <input type="file" name="fileupload" required class="image" value=" <?php echo $fileupload ?>"> -->
-                            <img src="image/<?php echo $myloading['fileupload'] ?>" width = "100px" height = "100px" alt = "">
+                                    ?>
+                           
+                           
 
 
 
@@ -214,7 +225,7 @@ $myloading = mysqli_fetch_assoc($myresult);
                 </div>
                 <div class="col col-lg-6 col-md-6 col-12">
                     <label for="dateInput">MOBILE NO:</label>
-                    <input type="tel" id="phoneNumberInput" name="mobileno" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required value="<?php echo $mobileno; ?>">
+                    <input type="tel" id="phoneNumberInput" name="mobileno" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="0000-000-0000" required value="<?php echo $mobileno; ?>">
                     <br>
                 </div>
                 <div class="col col-lg-6 col-md-6 col-12 fillhealth">
@@ -348,7 +359,7 @@ $myloading = mysqli_fetch_assoc($myresult);
                     </div>
                     <div class="col col-lg-6 col-md-6 col-12">
                         <label for="dateInput">STUDENT NUMBER:</label>
-                        <input type="tel" id="student" name="studentno" required value="<?php echo $studentno; ?>">
+                        <input type="tel" id="student" name="studentno" placeholder="0000-000-0000" required value="<?php echo $studentno; ?>">
                         <br>
                     </div>
                     <div class="col col-lg-6 col-md-6 col-12">
